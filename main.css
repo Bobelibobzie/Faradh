@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+   
+   
    /* ==========================================================================
       Reset browser
       ========================================================================== */
@@ -59,34 +62,52 @@ background: linear-gradient(300deg, rgba(232,30,88,0.7) 0%, rgba(239,119,131,0.7
    .navbar{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 120px;
-    background-color: rgba(255, 255, 255, 0.034);
+    height: 160px;
+    background-color: rgba(255, 255, 255, 0.027);
     justify-items: center; 
     align-content: center; 
+    text-align: center;
+    vertical-align: middle;
     }
 
-    .navbar-title{
-      margin-right: 400px; 
-      align-self: center; 
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      font-size: 30px;
-      letter-spacing: 5.8px;
-      word-spacing: 5.6px;
-      color: #c1e494;
-      font-weight: 700;
-      font-style: italic;
-      font-variant: small-caps;
-      text-transform: capitalize;
-    }
-
-    .image-logo-navbar{
-      height: 95px;
+    .image-logo-tiktok-navbar{
+      height: 110px; 
       width: auto;
+      margin-left: 10px;
     }
 
     .image-logo-navbar-donna{
       height: 120px;
       width: auto;
+      align-self: flex-end;
+      justify-self: flex-end;
+
+    }
+
+    .navbar-text-tiktok{
+      font-family: 'Pacifico', cursive;
+      margin-left: 140px;
+    }
+
+    .navbar-text-right{
+      align-self: center;
+      margin-right: 50%;
+      font-family: 'Pacifico', cursive;
+      font-size: 35px;
+      color: #905E96;
+    }
+
+
+
+
+
+    .flower-left{
+      height: 3%;
+      width: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      margin-top: 200px;
+      margin-left: 20%;
     }
 
 
